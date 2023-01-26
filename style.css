@@ -1,0 +1,29 @@
+*{
+    text-shadow: none;
+}
+
+body {
+    color: black;
+    text-align: left;
+}
+
+h1 +p{
+    
+    list-style: armenian;
+}
+
+#Name {
+    background-color: yellow;
+}
+
+.intro{
+
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
